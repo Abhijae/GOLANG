@@ -39,4 +39,20 @@ func main() {
 		}
 	}
 
+	// print nth element from a multi dimensional array
+
+	fmt.Println("multi array", multiarr[1][2])
+
+	// defining list in golang
+
+	list := []string{"lion", "zebra", "fox"}
+
+	for _, value := range list {
+		fmt.Println(value)
+	}
+
+	fmt.Println(list[2])
+
+	mypackage.StructExample()
+
 }
