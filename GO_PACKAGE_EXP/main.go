@@ -7,5 +7,6 @@ import (
 
 func main() {
 	result := mypackage.Add(10, 20)
-	fmt.Println("Sum:", result) // Output: Sum: 30
+	fmt.Println("Sum:", result)   // Output: Sum: 30
+	fmt.Println("hello:", result) // Output: Sum: 30
 }
